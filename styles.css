@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fdfcf9;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.hero {
+  background: linear-gradient(to right, #e6ede6, #f3f9f3);
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.hero h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 3rem;
+  color: #2d3a2d;
+}
+
+.subtitle {
+  font-size: 1.4rem;
+  color: #506250;
+  margin-top: 0.5rem;
+}
+
+.description {
+  font-size: 1.1rem;
+  margin: 1rem 0 2rem;
+}
+
+.btn {
+  background: #4c8054;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #2c442c;
+}
+
+section p, section li {
+  margin-bottom: 1rem;
+}
+
+ol {
+  padding-left: 1.5rem;
+}
+
+.submit form {
+  display: flex;
+  flex-direction: column;
+}
+
+.submit input, .submit button {
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit button {
+  background-color: #4c8054;
+  color: white;
+  cursor: pointer;
+}
+
+.footer {
+  background: #f0f3f0;
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.footer a {
+  color: #4c8054;
+  text-decoration: none;
+}
